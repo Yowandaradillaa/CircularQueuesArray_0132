@@ -57,4 +57,8 @@ class Queues {
         }
     }
 
+    void display () {
+        
+    }
+
     
