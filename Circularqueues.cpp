@@ -12,3 +12,7 @@ class Queues {
     }
 
 };
+
+void insert () {
+    
+}
