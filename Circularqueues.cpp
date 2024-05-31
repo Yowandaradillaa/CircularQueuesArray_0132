@@ -11,8 +11,6 @@ class Queues {
         REAR = -1;
     }
 
-};
-
     void insert () {
         int num;
         cout << "Enter a number : ";
@@ -61,7 +59,14 @@ class Queues {
         int FRONT_position = FRONT;
         int REAR_position = REAR;
 
-        
-    }
+        if (FRONT == -1) {
+            cout << "Queue is empty\n";
+            
+        }
 
+    }
+    
+};
+
+    
     
